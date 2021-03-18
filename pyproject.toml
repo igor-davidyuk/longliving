@@ -7,6 +7,7 @@ authors = ["Igor Davidyuk <igor.davidyuk@intel.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.20.1"
+grpcio-tools = "^1.36.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

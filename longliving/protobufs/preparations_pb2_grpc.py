@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import preparations_pb2 as preparations__pb2
+from . import preparations_pb2 as preparations__pb2
 
 
 class FederationDirectorStub(object):

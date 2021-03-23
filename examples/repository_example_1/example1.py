@@ -44,3 +44,6 @@ def main():
     repo_keeper = RepositoryKeeper(director_uri)
     
     repo_keeper.start(shard_descriptor)
+
+if __name__ == '__main__':
+    main()
